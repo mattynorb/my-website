@@ -1,0 +1,92 @@
+body {
+    margin: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5em;
+    line-height: 2em;
+    text-align: center;
+}
+
+h1 {
+    text-align: left;
+    margin-top: .5em;
+    color: #ffffff;
+    padding: .1em;
+    width: auto;
+}
+
+h2 {
+    color: #ffa500;
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Ubuntu', sans-serif;
+    width: 7em;
+    height: 2em;
+}
+
+.header {
+    margin-top: -25px;
+    width: 100%;
+    height: 85px;
+    background-color: #ffa500;
+    font-family: 'Oswald', sans-serif;
+    position: fixed;
+}
+
+#home {
+    top: 5px;
+    left: 25%;
+    position: fixed;
+}
+
+#cv {
+    top: 5px;
+    left: 50%;
+    position: fixed;
+}
+
+#contact {
+    top: 5px;
+    left: 75%;
+    position: fixed;
+}
+
+.footer {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    height: auto;
+    background-color: #ffa500;
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+#footdes {
+    margin: 0px;
+    font-size: .75em;
+}
+
+#linkedin {
+    color: #ffffff;
+    margin: 10px;
+    width: auto;
+    height: auto;
+    font-size: .7em;
+}
+
+#github {
+    color: #ffffff;
+    margin: 10px;
+    width: auto;
+    height: auto;
+    font-size: .7em;
+}
