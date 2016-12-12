@@ -1,3 +1,4 @@
+/*Matthew Norbury - 16404219*/
 body {
     margin: 0px;
     font-family: 'Ubuntu', sans-serif;
@@ -15,6 +16,7 @@ h1 {
     margin-top: .5em;
     color: #ffffff;
     padding: .1em;
+    margin-bottom: .3em;
 }
 
 a {
@@ -77,11 +79,17 @@ li {
 #linkedin {
     color: #ffffff;
     margin: 20px;
+    font-size: .7em;
 }
 
 #github {
     color: #ffffff;
     margin: 20px;
+    font-size: .7em;
+}
+
+#footdes {
+  font-size: .75em;
 }
 
 #me {
