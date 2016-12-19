@@ -20,6 +20,35 @@ h2 {
     padding-right: 2em;
 }
 
+form {
+  display: block;
+  border: none;
+}
+
+fieldset {
+  border: none;
+  height: auto;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+input {
+  font-size: 1em;
+  width: 50%;
+  margin: 10px;
+  padding: 10px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+textarea {
+  font-size: 1em;
+  width: 50%;
+  margin: 10px;
+  padding: 10px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
 h3 {
   font-family: 'Oswald', sans-serif;
   padding-left: 2em;
@@ -90,7 +119,7 @@ a {
     text-align: center;
 }
 
-#footdes {
+#foot-des {
     margin: 0px;
     font-size: .75em;
 }

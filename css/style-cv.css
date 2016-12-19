@@ -1,0 +1,127 @@
+/*Matthew Norbury - 16404219*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    line-height: 2em;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5em;
+}
+
+a {
+  color: #ffffff;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 3em;
+  font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 2em;
+  font-family: 'Oswald', sans-serif;
+  background: #ff0000;
+  padding: 25px;
+}
+
+li {
+  list-style: none;
+}
+
+.links {
+  display: flex;
+  flex-flow: column;
+  background: #ffbaba;
+}
+
+.name {
+    order: -1;
+    padding: 1em;
+    background-color: #ff0000;
+}
+
+.wrapper-edu-course {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
+.edu {
+    padding: 1em;
+    background: #ffbaba;
+    text-align: center;
+}
+
+.course {
+    padding: 1em;
+    text-align: center;
+    background: #ffbaba;
+}
+
+.wrapper-exp-skills {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
+.exp {
+    padding: 1em;
+    text-align: center;
+    background: #ffbaba;
+}
+
+.skills {
+    padding: 1em;
+    text-align: center;
+    background: #ffbaba;
+}
+
+.act {
+    padding: 1em;
+    text-align: center;
+    background: #ffbaba;
+}
+
+@media (max-width: 30em) {
+    .edu {
+        flex: 1 0 auto;
+    }
+}
+
+@media (min-width: 30em) {
+    .name {
+        display: block;
+    }
+
+    .wrapper-edu-course {
+        flex-direction: row;
+    }
+
+    .edu {
+        flex: 1 1 auto;
+        width: 50%;
+    }
+
+    .course {
+        width: 50%;
+    }
+
+    .wrapper-exp-skills {
+        flex-direction: row;
+    }
+
+    .exp {
+        flex: 1 1 auto;
+        width: 50%;
+    }
+
+    .skills {
+        width: 50%;
+    }
+}
