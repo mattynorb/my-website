@@ -10,31 +10,33 @@
 </head>
 
 <body>
-    <div class="header">
-        <h1 id="title">Contact Me</h1>
-    </div>
+    <nav class="header">
+        <ul>
+            <h1 id="title">Contact Me</h1>
+            <li><a id="contact" href="bio.html" role="button">About Me</a></li>
+            <li><a id="cv" href="cv.html" role="button">My CV</a></li>
+            <li><a id="home" href="index.html" role="button">Home</a></li>
+        </ul>
+    </nav>
 
-    <a id="home" href="index.html" role="button">Home</a>
-    <a id="cv" href="cv.html" role="button">My CV</a>
-    <a id="contact" href="bio.html" role="button">About Me</a>
-
+    <br>
     <h1>How To Contact Me</h1>
     <h2>If you need to contact me for any reason don't hesitate to do so</h2>
 
     <form class="" action="mailto:matty.norb@hotmail.co.uk" method="post">
-      <h3 id="form">Send me a message</h3>
-      <fieldset>
-        <input type="text" name="name" placeholder="Your name">
-      </fieldset>
-      <fieldset>
-        <input type="text" name="email" placeholder="Your email">
-      </fieldset>
-      <fieldset>
-        <textarea name="message" placeholder="Message" rows="8" cols="80"></textarea>
-      </fieldset>
-      <fieldset>
-        <input type="submit" name="submit" value="Send Message">
-      </fieldset>
+        <h3 id="form">Send me a message</h3>
+        <fieldset>
+            <input type="text" name="name" placeholder="Your name">
+        </fieldset>
+        <fieldset>
+            <input type="text" name="email" placeholder="Your email">
+        </fieldset>
+        <fieldset>
+            <textarea name="message" placeholder="Message" rows="8" cols="80"></textarea>
+        </fieldset>
+        <fieldset>
+            <input type="submit" name="submit" value="Send Message">
+        </fieldset>
     </form>
 
     <h3>Email:</h3>
@@ -43,9 +45,9 @@
     <p>01234567891</p>
     <h3>Social media:</h3>
     <div class="thumbnail">
-      <a href="https://www.facebook.com/mattynorb"><img src="#" alt="Facebook"></a>
-      <a href="https://uk.linkedin.com/in/matthew-norbury-aa9718130"><img src="#" alt="Linkedin"></a>
-      <a href="https://github.com/mattynorb"><img src="#" alt="GitHub"></a>
+        <a href="https://www.facebook.com/"><img id="flogo" src="images/facebook-logo.svg" alt=""></a>
+        <a href="https://uk.linkedin.com/in/matthew-norbury-aa9718130"><img id="llogo" src="images/linkedin-logo.svg" alt=""></a>
+        <a href="https://github.com/mattynorb"><img id="glogo" src="images/github-logo.svg" alt=""></a>
     </div>
 
     <img id="bowl" src="images/bowling-alley.png" alt="">

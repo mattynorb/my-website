@@ -10,6 +10,7 @@ body {
 h1 {
   color: #ffa500;
   padding: 1.5em;
+  margin: 0;
   padding-bottom: 0em;
   font-family: 'Oswald', sans-serif;
 }
@@ -62,22 +63,41 @@ p {
 
 a {
     text-decoration: none;
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: 'Ubuntu', sans-serif;
     width: 7em;
     height: 2em;
 }
 
+ul {
+    text-align: left;
+    list-style-type: none;
+    margin: 0;
+    padding: .5em;
+    overflow: hidden;
+    background-color: #ffa500;
+}
+
+li {
+    float: right;
+}
+
+.header a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+}
+
+
 .header {
-    margin-top: -57px;
     width: 100%;
-    height: 85px;
     background-color: #ffa500;
     font-family: 'Oswald', sans-serif;
     position: fixed;
 }
 
-#home {
+/*#home {
     top: 5px;
     left: 25%;
     position: fixed;
@@ -93,14 +113,11 @@ a {
     top: 5px;
     left: 75%;
     position: fixed;
-}
+}*/
 
 #title {
-    text-align: left;
-    margin-top: .5em;
-    color: #ffffff;
-    padding: .1em;
-    width: auto;
+  display: inline;
+  color: #ffffff;
 }
 
 #email {
@@ -117,6 +134,24 @@ a {
     color: #ffffff;
     font-family: 'Oswald', sans-serif;
     text-align: center;
+}
+
+#flogo {
+  height: 2em;
+  width: 2em;
+  padding: 1em;
+}
+
+#llogo {
+  height: 2em;
+  width: 2em;
+  padding: 1em;
+}
+
+#glogo {
+  height: 2em;
+  width: 2em;
+  padding: 1em;
 }
 
 #foot-des {
