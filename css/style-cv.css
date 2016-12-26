@@ -1,5 +1,4 @@
 /*Matthew Norbury - 16404219*/
-
 body {
     display: flex;
     flex-direction: column;
@@ -8,7 +7,8 @@ body {
     line-height: 2em;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 1.5em;
+    font-size: 2em;
+    color: #ffffff;
 }
 
 a {
@@ -18,7 +18,9 @@ a {
 
 h1 {
   color: #ffffff;
+  margin: 0;
   font-size: 3em;
+  line-height: 1em;
   font-family: 'Oswald', sans-serif;
 }
 
@@ -37,12 +39,15 @@ li {
 .links {
   display: flex;
   flex-flow: column;
+  width: 100%;
   background: #ffdc9c;
 }
 
 .name {
     order: -1;
-    padding: 1em;
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
     background-color: #ffa500;
 }
 
@@ -50,6 +55,7 @@ li {
     display: flex;
     flex-direction: column;
     flex: 1 0 auto;
+    width: 100%;
 }
 
 .edu {
@@ -68,6 +74,7 @@ li {
     display: flex;
     flex-direction: column;
     flex: 1 0 auto;
+    width: 100%;
 }
 
 .exp {
@@ -86,6 +93,27 @@ li {
     padding: 1em;
     text-align: center;
     background: #ffdc9c;
+}
+
+#tedu {
+  width: 100%;
+}
+
+#trc {
+  width: 100%;
+}
+
+#tpe {
+  width: 100%;
+}
+
+#tskills {
+  width: 100%;
+}
+
+#tra {
+  width: 100%;
+  height: 50%;
 }
 
 @media (max-width: 30em) {

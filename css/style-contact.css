@@ -8,11 +8,9 @@ body {
 }
 
 h1 {
-  color: #ffa500;
-  padding: 1.5em;
-  margin: 0;
-  padding-bottom: 0em;
-  font-family: 'Oswald', sans-serif;
+    color: #ffa500;
+    padding-bottom: 0em;
+    font-family: 'Oswald', sans-serif;
 }
 
 h2 {
@@ -22,38 +20,38 @@ h2 {
 }
 
 form {
-  display: block;
-  border: none;
+    display: block;
+    border: none;
 }
 
 fieldset {
-  border: none;
-  height: auto;
-  width: 100%;
-  padding: 0px;
-  margin: 0px;
+    border: none;
+    height: auto;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
 }
 
 input {
-  font-size: 1em;
-  width: 50%;
-  margin: 10px;
-  padding: 10px;
-  font-family: 'Ubuntu', sans-serif;
+    font-size: 1em;
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 textarea {
-  font-size: 1em;
-  width: 50%;
-  margin: 10px;
-  padding: 10px;
-  font-family: 'Ubuntu', sans-serif;
+    font-size: 1em;
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 h3 {
-  font-family: 'Oswald', sans-serif;
-  padding-left: 2em;
-  padding-right: 2em;
+    font-family: 'Oswald', sans-serif;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 p {
@@ -89,13 +87,13 @@ li {
     text-decoration: none;
 }
 
-
 .header {
     width: 100%;
     background-color: #ffa500;
     font-family: 'Oswald', sans-serif;
     position: fixed;
 }
+
 
 /*#home {
     top: 5px;
@@ -116,13 +114,13 @@ li {
 }*/
 
 #title {
-  display: inline;
-  color: #ffffff;
+    display: inline;
+    color: #ffffff;
 }
 
 #email {
-  color: #ffa500;
-  text-decoration: underline;
+    color: #ffa500;
+    text-decoration: underline;
 }
 
 .footer {
@@ -137,21 +135,21 @@ li {
 }
 
 #flogo {
-  height: 2em;
-  width: 2em;
-  padding: 1em;
+    height: 2em;
+    width: 2em;
+    padding: 1em;
 }
 
 #llogo {
-  height: 2em;
-  width: 2em;
-  padding: 1em;
+    height: 2em;
+    width: 2em;
+    padding: 1em;
 }
 
 #glogo {
-  height: 2em;
-  width: 2em;
-  padding: 1em;
+    height: 2em;
+    width: 2em;
+    padding: 1em;
 }
 
 #foot-des {
@@ -176,7 +174,7 @@ li {
 }
 
 #bowl {
-  width: 100%;
-  height: auto;
-  margin-bottom: -20px;
+    width: 100%;
+    height: auto;
+    margin-bottom: -20px;
 }
